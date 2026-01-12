@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIYALO.NP-</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #000000;
+            line-height: 1.6;
+        }
+        header {
+            background: rgba(12, 12, 12, 0.8);
+            color: rgb(255, 47, 47);
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .hero {
+            background: url('https://www.vecteezy.com/free-vector/background') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .btn {
+            background: #ffd700;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #ffed4e;
+        }
+        section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+        }
+        .product img {
+            width: 90%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .product h3 {
+            margin: 10px;
+        }
+        .product p {
+            margin: 0 15px 8px;
+        }
+        .layouts {
+            display: flow-root;
+            flex-flow: wrap;
+            gap: 20px;
+        }
+        .layout {
+            flex: 1 1 300px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2em; }
+            .products { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>हामीलाई रोज्नु भएकोमा धन्यवाद।</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#layouts">Designs & Layouts</a></li>
+                <li><a href="#contact" >Contact</a></li>
+            </ul>
+            <div
+    
+        
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to DIYALO FRAGRANCES NEPAL</h1>
+            <p>Discover scents that captivate and inspire. Perfect for every moment.</p>
+            <a href="#products" class="btn">Explore Collection</a>
+        </div>
+    </section>
+    
+
+
+    <section id="products">
+        <h2>Our Fragrance Collection</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://static-01.daraz.pk/p/e420c759ed422d99d72985296e8958f3.jpg" alt="Bleu de">
+                <h3><text>
+                    <blod>Bleu De Channel</blod></h3>
+                <p>Bleu De Chanel Eau De Perfume 100ml For Men </p>
+                <p><strong style="color: rgb(204, 0, 255);">PRICE</strong></p> 
+        <p><strong style="color: rgb(0, 0, 0);">- 50000 </strong>NPR </p>
+        
+
+
+ </select>
+
+        
+
+            </div>
+            <div class="product">
+                <img src="https://static-01.daraz.com.np/p/51abcd3c198cc47e4cb144847e8bfc34.jpg" alt="Bella Vita Klub Man">
+                <h3><text>
+                <blod>Bella Vita </blod></h3>
+                <p>Bella Vita Klub Man Luxury Perfume 100 Ml</p>
+            <p><strong style="color: rgb(204, 0, 255);">PRICE</strong></p> 
+        <p><strong style="color: rgb(0, 0, 0);">- 1500 </strong> NPR </p>
+        
+
+
+
+
+    </select>
+
+              </div>
+           
+        <div class="product">
+                <img src="https://img.drz.lazcdn.com/g/kf/Sdee0064ed9854faea5d23965602b6ea0F.jpg_720x720q80.jpg" alt="DENVER HAMILTON" width="150">
+                <h3>DENVER HAMILTON</h3>
+                <p>Denver Men Perfume Hamilton - 100Ml</p>
+                <p><strong style="color: rgb(204, 0, 255);">PRICE</strong></p> 
+        <p><strong style="color: rgb(0, 0, 0);">- 1200 </strong>NPR </p>
+
+        
+        </div>
+ <p>Select your fragrance and place your order!</p>
+    
+    <!-- Example product selection (you can expand this) -->
+    <select id="fragrance">
+        <option value="Sir/Mam">Denver Hamilton</option>
+        <option value="Sir/Mam">Bella Vita</option>
+        <option value="Sir/Mam">Bleu De Channel</option>
+    </select>
+    
+
+    <!-- Place Order Button -->
+    <li><a href="#contact" >PLACE YOUR ORDER</a></li>
+    <script>
+     document.getElementById('placeOrderBtn').addEventListener('click', function() {
+            const selectedFragrance = document.getElementById('fragrance').value;
+            alert(` ${selectedFragrance} Please! Click On Contact Button To Place Your Order.          thank You.`);
+        });
+           </script>
+
+
+
+
+            
+
+            <div class="product">
+
+        <div class="products">
+            <div class="product">
+            </div>
+    </section>
+   
+    <section id="layouts">
+        <h2>Designs & Layouts Showcase</h2>
+        <div class="layouts">
+            <div class="layout">
+                <h3>Minimalist Layout</h3>
+                <p>Clean, simple design focusing on elegance and usability.</p>
+                <!-- Example: Minimal grid -->
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+                    <div style="background: #eee; padding: 20px;">Item 1</div>
+                    <div style="background: #eee; padding: 20px;">Item 2</div>
+                </div>
+            </div>
+            <div class="layout">
+                <h3>Grid-Based Layout</h3>
+                <p>Organized grid for showcasing multiple products.</p>
+                <!-- Example: Product grid -->
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                    <div style="background: #ddd; padding: 20px;">Perfume A</div>
+                    <div style="background: #ddd; padding: 20px;">Perfume B</div>
+                    <div style="background: #ddd; padding: 20px;">Perfume C</div>
+                </div>
+            </div>
+            <div class="layout">
+                <h3>Hero-Focused Layout</h3>
+                <p>Large hero section with call-to-action for impact.</p>
+                <!-- Example: Hero mockup -->
+                <div style="background: #f0f0f0; padding: 40px; text-align: center;">
+                    <h4>Attractive Opening</h4>
+                    <p>Engage visitors immediately with stunning visuals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2> Order Place</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="Address"> Address</label><br>
+            <textarea id="Address" name="Address"></textarea><br><br>
+            <label for="ITEM"> Write What You Want</label><br>
+            <textarea id="Address" name="Address"></textarea><br><br>
+            <label for="payment"> payment method</label><br>
+            <textarea id="Address" name="Address"></textarea><br><br>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 DIYALO Fragrances. All rights reserved.
+    <strong Owner style="color: rgb(174, 0, 255);">OWNER- IRISH POUDEL </strong></p>
+    <strong Owner style="color: rgb(0, 102, 255);">DESIGNER- IRISH POUDEL </strong></p>
+    </footer>
+
+
+    <script>
+        // Simple JS for smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
